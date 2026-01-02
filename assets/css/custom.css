@@ -1,0 +1,53 @@
+/* Custom Styling for Docsify */
+
+:root {
+  --theme-color: #42b983;
+  --theme-color-dark: #2c3e50;
+}
+
+/* Sidebar styling */
+.sidebar {
+  border-right: 1px solid #eee;
+}
+
+/* Code blocks */
+pre {
+  border-radius: 8px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+table th {
+  background-color: var(--theme-color);
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-success {
+  background-color: #42b983;
+  color: white;
+}
+
+.badge-warning {
+  background-color: #f66;
+  color: white;
+}
