@@ -51,3 +51,29 @@ table td {
   background-color: #f66;
   color: white;
 }
+
+/* Tùy chỉnh màu nền coverpage */
+section.cover {
+  background:  linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+/* Tùy chỉnh màu chữ trên coverpage */
+section.cover h1,
+section.cover h2,
+section.cover p,
+section.cover a {
+  color: #ffffff !important;
+}
+
+/* Tùy chỉnh màu các nút trên coverpage */
+section.cover . cover-main > p: last-child a {
+  background-color: #ffffff;
+  color: #667eea;
+  border:  2px solid #ffffff;
+}
+
+section.cover .cover-main > p:last-child a:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border:  2px solid #ffffff;
+}
