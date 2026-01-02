@@ -16,4 +16,4 @@
 [GitHub](https://github.com/duclong2301/knowledge-base)
 
 <!-- background color -->
-![color](#2c3e50)
+![color](#42b983)
